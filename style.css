@@ -1,0 +1,264 @@
+
+
+:root{
+    
+    --b:black;
+    --g:rgb(6, 126, 6);
+    --w:white;
+}
+
+/* i testi */
+
+.text-w{
+    
+    color: var(--w) !important;
+}
+
+.text-b{
+    
+    color: var(--b) !important;
+}
+
+.text-g{
+    
+    color: var(--g) !important;
+}
+
+/* colore dei bg */
+
+.bg-g{
+    
+    background-color: var(--g);
+}
+
+.bg-w{
+    
+    background-color: var(--w);
+}
+
+
+
+.bg-b{
+    
+    background-color: var(--b);
+}
+
+
+.navbar-brand{
+    
+    
+    font-family: 'sala';
+}
+
+@font-face {
+    font-family: 'sala';
+    src: url(./font/bridgeofficersuperital.ttf);
+}
+
+.imgLogo{
+    
+    height: 70px;
+    transition: 0.5s;
+}
+
+.hnav{
+    
+    height: 600px;
+}
+
+nav{
+    
+    transition: 1s;
+}
+
+.bgnero{
+    
+    background-color: black;
+}
+
+.bgverde{
+    
+    background-color: var(--g);
+}
+
+.bgbianco{
+    
+    background-color: rgb(255, 255, 255);
+}
+
+
+.editbox{
+    
+    box-shadow: 2px 2px 3px black;
+    
+}
+
+
+body{
+    
+    margin: 0px;
+}
+
+.rooo{
+    
+    animation-name: salto;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-fill-mode: forwards;
+    
+    
+    
+}  
+
+@keyframes salto {
+    
+    0%{
+        transform: rotate(-40deg);
+
+    }
+
+    40%{
+        
+        
+        transform: rotate(-40deg);
+       
+        transform:translateX(-10px) ;
+        transform:translateY(10px);
+       
+        
+
+    }60%{
+        
+        transform: translateY(-20px);
+        transform: translateX(50px);
+    }
+    
+    
+    
+    
+    
+    
+    
+    70%{
+        transform: rotate(60deg);
+        transform: translateX(300px)
+        translatey(125px)
+    }
+
+    90%{
+        transform:rotate(-90deg) ;
+        transform: translateX(300px)
+        translatey(125px)
+
+    }
+
+    100%{
+        transform:rotate(0deg) ;
+    }
+}
+
+
+
+.salac:focus{
+
+    box-shadow: 2px 2px 32px rgb(253, 253, 253) !important;
+    border:1px solid black !important ;
+}
+
+.salas{
+
+    box-shadow: 2px 2px 32px rgb(253, 253, 253) !important;
+    border:1px solid rgb(0, 0, 0) !important ;
+}
+
+.btn{
+
+    background-color: var(--g) !important   ;
+}
+
+h1{
+    font-size: 3424px;
+    font-family: 'sala';
+    position: relative;
+    border: 3px solid white;
+    padding-top: 4px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    border-radius: 70%;
+    width: 370px;
+    box-shadow: 2px 2px 33px white;
+}
+
+
+header{
+
+    height: calc(100vh - 96px);
+    margin-top: 96px;
+    background-image: url(https://images.unsplash.com/photo-1602491453439-8f207298a202?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.tigercol{
+    position: absolute;
+    top: 270px;
+    left: 150px;
+
+}
+
+.edithr{
+
+    color: white;
+    border: 3px solid white;
+    opacity: 2;
+    top:34px;
+    left: 44px;
+    position: absolute;
+    border-radius: 50%;
+    
+}
+
+.imgNumeri{
+
+    padding: 6px;
+
+    border: 3px solid red;
+}
+
+.number{
+
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.paragraphN{
+    font-size:225px;
+}
+
+.card{
+
+    border: 2px solid black !important;
+    padding: 0 !important;
+}
+
+.swiper {
+    width: 900px;
+    height: 300px;
+  }
+
+  .review-card{
+    width: 80%;
+    height: 60%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 20px;
+  }
+
+
+
